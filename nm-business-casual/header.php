@@ -41,7 +41,7 @@
                         'theme_location' => 'primary',
                       'menu' => 'top_menu',
                       'depth' => 0,
-                      'container' => false,
+                      'container' => true,
                       'menu_class' => 'nav navbar-nav',
                       //Process nav menu using our custom nav walker
                       'walker' => new wp_bootstrap_navwalker())
